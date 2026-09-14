@@ -3,10 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shreya Jadhav | Portfolio</title>
+  <title>Kiran Jadhav | Web-Based Portfolio Application</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Top Reading Scroll Progress Bar -->
+  <div id="scroll-progress"></div>
 
   <!-- Navigation Bar -->
   <nav class="navbar">
@@ -21,7 +24,7 @@
 
   <!-- Hero / About Section -->
   <section id="about" class="hero">
-    <h1>Hello, I'm <span class="highlight">Shreya Jadhav</span></h1>
+    <h1>Hello, I'm <span class="highlight">Kiran Jadhav</span></h1>
     <p>Aspiring Software Engineer | Web Developer</p>
   </section>
 
@@ -33,6 +36,8 @@
       <span class="skill-card">JavaScript</span>
       <span class="skill-card">Git & GitHub</span>
       <span class="skill-card">Software Engineering</span>
+      <span class="skill-card">Responsive Design</span>
+      <span class="skill-card">VS Code</span>
     </div>
   </section>
 
@@ -41,9 +46,15 @@
     <h2>Projects</h2>
     <div class="projects-grid">
       <div class="project-card">
-        <h3>Portfolio Website</h3>
-        <p>A responsive personal portfolio built applying core software engineering concepts, modular code structure, and modern web layout standards.</p>
-        <a href="https://github.com" class="project-link" target="_blank">View Code on GitHub →</a>
+        <h3>Portfolio Web Application</h3>
+        <p>A responsive personal portfolio built applying core software engineering concepts, modular code structure, dynamic theme switching, and form integration.</p>
+        <a href="https://github.com/shreyajadhav0820-max/portfolio-project" class="project-link" target="_blank">View Code on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Academic ERP & Portal Interface</h3>
+        <p>A web prototype interface designed for managing academic registrations, student workflows, and portal applications.</p>
+        <a href="https://github.com/shreyajadhav0820-max" class="project-link" target="_blank">View Project →</a>
       </div>
     </div>
   </section>
@@ -52,6 +63,26 @@
   <section id="contact" class="section">
     <h2>Contact Me</h2>
     <p>Email: <a href="mailto:shreyajadhav0820@gmail.com">shreyajadhav0820@gmail.com</a></p>
+    
+    <div class="social-links">
+      <p><strong>Connect with me:</strong> 
+        <a href="https://github.com/shreyajadhav0820-max" target="_blank">GitHub</a> | 
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      </p>
+    </div>
+
+    <form class="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" name="_replyto" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
   </section>
 
   <script src="script.js"></script>
